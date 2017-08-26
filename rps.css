@@ -33,12 +33,8 @@
      padding-left: 2%;
  }
 
- footer {
-     height: 2em;
-     background-color: black;
-     color: #00aaff;
-     text-align: center;
-     position: fixed;
-     bottom: 0;
-     width: 100%;
+ .fancy {
+ 	font-family: 'Monoton', cursive;
+ 	color: #aa00ff!important;
  }
+ 

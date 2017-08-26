@@ -30,14 +30,35 @@
 	        computerSelection = "s";
 	    };
 
+	    var computerChose = "";
+
+	    if (computerSelection == "r") {
+	    	computerChose = "Rock";
+	    } else if (computerSelection == "p") {
+	    	computerChose = "Paper";
+	    } else {
+	    	computerChose = "Scissors";
+	    };
+
 	    // DISPLAY COMPUTER CHOICE
 
-	    computer.textContent = computerSelection;
+	    computer.textContent = computerChose;
 
 	    // DISPLAY AND STORE USER CHOICE
 	    var userSelection = event.key;
 
-	    user.textContent = event.key;
+	    var userChose = "";
+
+	    if (userSelection == "r") {
+	    	userChose = "Rock";
+	    } else if (userSelection == "p") {
+	    	userChose = "Paper";
+	    } else {
+	    	userChose = "Scissors";
+	    };
+
+
+	    user.textContent = userChose;
 
 	    if (userSelection != "r" && userSelection != "p" && userSelection != "s") {
 	        alert("Please select 'r','p', or's' only");
