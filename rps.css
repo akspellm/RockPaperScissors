@@ -33,3 +33,13 @@
  	padding-left: 2%;
  }
 
+ footer {
+ 	height: 2em;
+ 	background-color: black;
+ 	color: #00aaff;
+ 	text-align: center;
+ 	position: fixed;
+	bottom: 0;
+	width: 100%;
+ }
+
